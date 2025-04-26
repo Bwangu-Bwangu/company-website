@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bwangubwangu ICT Consultancy</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/fonts/Poppins-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <!-- Include header component -->
+        {% include '../components/header.html' %}
+    </header>
+
+    <main>
+        <!-- Main content will be injected here -->
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <!-- Include footer component -->
+        {% include '../components/footer.html' %}
+    </footer>
+
+    <script src="../assets/js/scripts.js"></script>
+</body>
+</html>
